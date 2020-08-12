@@ -1,0 +1,31 @@
+.bordure{
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 150px;
+    margin-top: 200px;
+    background-color: beige;
+}
+
+.texte{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 55px;
+}
+
+.texte::before{
+    content: "Hi!";
+    background: rgb(93, 231, 255);
+    width: 25px;
+    height: 25px;
+    
+}
+.texte::after{
+    content: "Hi!";
+    background: rgb(93,231,255);
+    width: 25px;
+    height: 25px;
+}
